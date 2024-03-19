@@ -10,7 +10,7 @@ def main():
     return "Home"
 
 
-@app.route("/addcomplain", methods=["POST"])
+@app.route("/addvehicle", methods=["POST"])
 @cross_origin()
 def addcomplain():
     try:
